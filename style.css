@@ -1,3 +1,5 @@
+/* Fonts */
+
 @font-face {
 	font-family: 'Open Sans';
 	src: url('OpenSans-Light.woff2') format('woff2') url('OpenSans-Light.woff') format('woff');
@@ -70,3 +72,17 @@
 	font-weight: 800;
 	font-style: italic;
 }
+
+/* Debug components style */
+.bg{
+    border: 1px groove chartreuse;
+}
+.br{
+    border: 1px groove rgb(250, 77, 9);
+}
+.by{
+    border: 1px groove rgb(249, 253, 1);
+}
+
+/* Page */
+
