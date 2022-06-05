@@ -85,4 +85,43 @@
 }
 
 /* Page */
+body{
+    margin: 0;
+}
+.container {
+    width: 100%;
+
+}
+.page{
+    width: 1440px;
+    height: 2020px;
+    margin: 0 auto;
+}
+header{
+    height: 4%;
+}
+main{
+    height: 91%;    
+}
+footer{
+    height: 5%;
+}
+
+/* Navigation */
+.menu{
+    margin-top: 2%;
+}
+.nav-list{
+    list-style: none;
+    font-size: 0px;
+    text-align: center;
+}
+.nav-link{
+    display: inline-block;
+    font-size: 16pt;
+    border-left: 5px groove black;
+    padding-left: 1%;
+    margin: 0% 2% 0% 2%;
+}
+/* Main sections */
 
