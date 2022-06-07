@@ -336,6 +336,7 @@ footer {
 .code-title{
   font-size: 2rem;
   font-weight: 500;
+  line-height: 4rem;
 }
 .code-title cite{
   font-size: 1.2rem;
@@ -347,9 +348,10 @@ footer {
   font-style: oblique;
 }
 .project-link{
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-style: italic;
   font-weight: 200;
+  line-height: 3rem;
 }
 .language{
   margin-left: 8%;
@@ -374,13 +376,12 @@ footer {
 .diagram{
   display:block;
   position: absolute;
-  box-sizing:border-box;  
+  box-sizing:border-box;
   width: 150pt;
   height: 150pt;
   margin: 1%;
   text-align: center;
-  border-radius: 50%; 
-  background: conic-gradient(from 90deg at 55% 50%, white 25%, #22222D 15% 75%);
+  border-radius: 50%;
 }
 .inner{
   display: block;
@@ -397,10 +398,20 @@ footer {
   background-color: white;
   text-align: center;
 }
+.percent-english{
+  background: conic-gradient(from 90deg at 33%, white 67%, #22222D 90%);
+}
+.percent-native{
+  background: #22222D;
+}
 .language-level{
   margin-top: 25%;
   font-weight: "Open Sans";
   font-size: 20pt;
 }
 
-
+/* Footer */
+.img-git-profile{
+  width: 50%;
+  margin: 25% 25%;
+}
