@@ -254,7 +254,7 @@ footer {
 }
 .profession{
     margin: 8% 0% 0% 9%;
-    font-family: 'Open sans';    
+    font-family: 'Open Sans';    
     font-size: 1.5rem;
     font-weight: 700;
     color: white;
@@ -268,14 +268,15 @@ footer {
 .title-about{
     margin: 5% 0% 4% 7%;
     font-size: 2.2rem;
-    font-family: 'OpenSans-Bold';
+    font-family: 'Open Sans';
     font-weight: 700;
 }
 .data-about{
     margin: 5% 5% 0% 7%;
     font-size: 1.5rem;
-    font-family: 'OpenSans-Regular';
+    font-family: 'Open Sans';
     font-weight: 400;
+    line-height: 2rem;
 }
 .education{
     margin: 0% 0% 0% 0%;
@@ -283,20 +284,70 @@ footer {
 }
 .education ul{
     font-size: 2.2rem;
-    font-family: 'OpenSans-Bold';
+    font-family: 'Open Sans';
     font-weight: 700;
 }
 .education ul>li{
     font-size: 1.5rem;
-    font-family: 'OpenSans-Regular';
+    font-family: 'Open Sans';
     font-weight: 400;
+    line-height: 2rem;
     margin: 3% 5% 0% 0%;
 }
 .line-about{
     display: block;
     clear: right;
-    width: 80%;
-    height: 5%;
-    margin-right: 0%;
+    width: 99%;   
+    height: 3%;    
+    padding: 2%;
     background-color: #DFB225;
+}
+.about .right-section{
+  overflow: hidden;
+}
+.line-about-right{
+  display: block;
+  margin-top: 1%;
+  clear: right;
+  width: 100%;
+  padding: 1.5%;
+  background-color: #E1E1E1;
+}
+.skills{
+  width: 90%;
+  margin-left: 8%;
+}
+.my-skills{
+  font-family: "Open Sans";
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.my-skills ul>li{
+  list-style:square ;
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.code{
+  margin-left: 8%;
+  font-family: "Open Sans";
+}
+.code-title{
+  font-size: 2rem;
+  font-weight: 500;
+}
+.code-title cite{
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.code-data{
+  font-size: 1rem;
+  font-weight: 100;
+  font-style: oblique;
+}
+.project-link{
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 200;
 }
