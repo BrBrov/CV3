@@ -103,7 +103,23 @@
   background-color: #fecb00;
 }
 
+/* Links styles */
+
+a{
+  text-decoration: none;
+  color: rgb(10, 22, 129);
+}
+
+a:hover{
+  color: rgba(49, 114, 235, 0.918);
+  text-decoration: underline;
+}
+
 /* Page */
+html {
+  scroll-behavior: smooth; 
+}
+
 body {
   margin: 0;
 }
@@ -136,11 +152,14 @@ footer {
 }
 .nav-link {
   display: inline-block;
+  font-family: "Open Sans";
   font-size: 16pt;
+  font-weight: 500;
   border-left: 5px groove black;
   padding-left: 1%;
   margin: 0% 2% 0% 2%;
 }
+
 /* Main sections */
 .contact-details {
   width: 100%;
