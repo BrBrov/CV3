@@ -235,13 +235,13 @@ footer {
 }
 
 .my-photo{
-    display: block; 
+    display: block;
     width: 100%;
-    height: 100%;   
+    height: 100%;
 }
 .my-name{
     margin: 8% 0% 0% 9%;
-    font-family: 'Open sans';    
+    font-family: 'Open sans';
     font-size: 4.0rem;
     font-weight: 700;
     color: white;
@@ -254,7 +254,7 @@ footer {
 }
 .profession{
     margin: 8% 0% 0% 9%;
-    font-family: 'Open Sans';    
+    font-family: 'Open Sans';
     font-size: 1.5rem;
     font-weight: 700;
     color: white;
@@ -297,8 +297,8 @@ footer {
 .line-about{
     display: block;
     clear: right;
-    width: 99%;   
-    height: 3%;    
+    width: 99%;
+    height: 3%;
     padding: 2%;
     background-color: #DFB225;
 }
@@ -351,3 +351,56 @@ footer {
   font-style: italic;
   font-weight: 200;
 }
+.language{
+  margin-left: 8%;
+  font-family: "Open Sans";
+}
+.language-title{
+  font-size: 2rem;
+  font-weight: 700;
+}
+.diagrams{
+  margin-top: 5%;
+  width: 100%;
+  height: 30%;
+  font-size: 0.1rem;
+}
+.block-diagram{
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 25%;
+  text-align: center;
+}
+.diagram{
+  display:block;
+  position: absolute;
+  box-sizing:border-box;  
+  width: 150pt;
+  height: 150pt;
+  margin: 1%;
+  text-align: center;
+  border-radius: 50%; 
+  background: conic-gradient(from 90deg at 55% 50%, white 25%, #22222D 15% 75%);
+}
+.inner{
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 120pt;
+  height: 120pt;
+  margin: auto;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+}
+.language-level{
+  margin-top: 25%;
+  font-weight: "Open Sans";
+  font-size: 20pt;
+}
+
+
