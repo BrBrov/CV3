@@ -147,7 +147,7 @@ footer {
 }
 .nav-list {
   list-style: none;
-  font-size: 0px;
+  font-size: 0;
   text-align: center;
 }
 .nav-link {
