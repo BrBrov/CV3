@@ -1,86 +1,86 @@
 /* Fonts */
 
 @font-face {
-  font-family: "Open Sans";
-  src: url("/assets/fonts/OpenSans-Light.woff2") format("woff2")
-       url("/assets/fonts/OpenSans-Light.woff")  format("woff");
+  font-family: "Open Sans Light";
+  src: url("/assets/fonts/OpenSans-Light.woff2") format("woff2"),
+       url("/assets/fonts/OpenSans-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
-  font-family: "Open Sans";
-  src: url("/assets/fonts/OpenSans-LightItalic.woff2") format("woff2")
-       url("/assets/fonts/OpenSans-LightItalic.woff") format("woff");
+  font-family: "Open Sans LightItalic";
+  src: url("/assets/fonts/OpenSans-LightItalic.woff2") format("woff2"),
+  url("/assets/fonts/OpenSans-LightItalic.woff") format("woff");
   font-weight: 300;
   font-style: italic;
 }
 @font-face {
-  font-family: "Open Sans";
-  src: url("/assets/fonts/OpenSans-Regular.woff2") format("woff2")
-       url("/assets/fonts/OpenSans-Regular.woff") format("woff");
+  font-family: "Open Sans Regular";
+  src: url("/assets/fonts/OpenSans-Regular.woff2") format("woff2"),
+  url("/assets/fonts/OpenSans-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: "Open Sans";
-  src: url("/assets/fonts/OpenSans-Italic.woff2") format("woff2")
-       url("/assets/fonts/OpenSans-Italic.woff")  format("woff");
+  font-family: "Open Sans Italic";
+  src: url("/assets/fonts/OpenSans-Italic.woff2") format("woff2"),
+  url("/assets/fonts/OpenSans-Italic.woff") format("woff");
   font-weight: 400;
   font-style: italic;
 }
 @font-face {
-  font-family: "Open Sans";
-  src: url("/assets/fonts/OpenSans-Medium.woff2") format("woff2")
-       url("/assets/fonts/OpenSans-Medium.woff")  format("woff");
+  font-family: "Open Sans Medium";
+  src: url("/assets/fonts/OpenSans-Medium.woff2") format("woff2"),
+  url("/assets/fonts/OpenSans-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
-  font-family: "Open Sans";
-  src: url("/assets/fonts/OpenSans-MediumItalic.woff2") format("woff2")
-       url("/assets/fonts/OpenSans-MediumItalic.woff") format("woff");
+  font-family: "Open Sans MediumItalic";
+  src: url("/assets/fonts/OpenSans-MediumItalic.woff2") format("woff2"),
+  url("/assets/fonts/OpenSans-MediumItalic.woff") format("woff");
   font-weight: 500;
   font-style: italic;
 }
 @font-face {
-  font-family: "Open Sans";
-  src: url("/assets/fonts/OpenSans-SemiBold.woff2") format("woff2")
-       url("/assets/fonts/OpenSans-SemiBold.woff") format("woff");
+  font-family: "Open Sans SemiBold";
+  src: url("/assets/fonts/OpenSans-SemiBold.woff2") format("woff2"),
+  url("/assets/fonts/OpenSans-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
-  font-family: "Open Sans";
-  src: url("/assets/fonts/OpenSans-SemiBoldItalic.woff2") format("woff2")
-       url("/assets/fonts/OpenSans-SemiBoldItalic.woff") format("woff");
+  font-family: "Open Sans SemiBoldItalic";
+  src: url("/assets/fonts/OpenSans-SemiBoldItalic.woff2") format("woff2"),
+  url("/assets/fonts/OpenSans-SemiBoldItalic.woff") format("woff");
   font-weight: 600;
   font-style: italic;
 }
 @font-face {
-  font-family: "Open Sans";
-  src: url("/assets/fonts/OpenSans-Bold.woff2") format("woff2")
-       url("/assets/fonts/OpenSans-Bold.woff") format("woff");
+  font-family: "Open Sans Bold";
+  src: url("/assets/fonts/OpenSans-Bold.woff2") format("woff2"),
+  url("/assets/fonts/OpenSans-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
-  font-family: "Open Sans";
-  src: url("/assets/fonts/OpenSans-BoldItalic.woff2") format("woff2")
-       url("/assets/fonts/OpenSans-BoldItalic.woff") format("woff");
+  font-family: "Open Sans BoldItalic";
+  src: url("/assets/fonts/OpenSans-BoldItalic.woff2") format("woff2"),
+  url("/assets/fonts/OpenSans-BoldItalic.woff") format("woff");
   font-weight: 700;
   font-style: italic;
 }
 @font-face {
-  font-family: "Open Sans";
-  src: url("/assets/fonts/OpenSans-ExtraBold.woff2") format("woff2")
-       url("/assets/fonts/OpenSans-ExtraBold.woff2") format("woff");
+  font-family: "Open Sans ExtraBold";
+  src: url("/assets/fonts/OpenSans-ExtraBold.woff2") format("woff2"),
+  url("/assets/fonts/OpenSans-ExtraBold.woff2") format("woff");
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
-  font-family: "Open Sans";
-  src: url("/assets/fonts/OpenSans-ExtraBoldItalic.woff2") format("woff2")
-       url("/assets/fonts/OpenSans-ExtraBoldItalic.woff") format("woff");
+  font-family: "Open Sans ExtraBoldItalic";
+  src: url("/assets/fonts/OpenSans-ExtraBoldItalic.woff2") format("woff2"),
+  url("/assets/fonts/OpenSans-ExtraBoldItalic.woff") format("woff");
   font-weight: 800;
   font-style: italic;
 }
@@ -105,19 +105,19 @@
 
 /* Links styles */
 
-a{
+a {
   text-decoration: none;
   color: rgb(10, 22, 129);
 }
 
-a:hover{
+a:hover {
   color: rgba(49, 114, 235, 0.918);
   text-decoration: underline;
 }
 
 /* Page */
 html {
-  scroll-behavior: smooth; 
+  scroll-behavior: smooth;
 }
 
 body {
@@ -193,7 +193,7 @@ footer {
 .right-section {
   display: inline-block;
   width: 56%;
-  height: 100%;  
+  height: 100%;
 }
 
 /* footer blocks */
@@ -246,165 +246,165 @@ footer {
 }
 
 /* Subsection of my info */
-.my-info .right-section{
-    overflow: hidden;
+.my-info .right-section {
+  overflow: hidden;
 }
-.my-info .left-section{
-    background-color: #E0B300;
+.my-info .left-section {
+  background-color: #e0b300;
 }
 
-.my-photo{
-    display: block;
-    width: 100%;
-    height: 100%;
+.my-photo {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
-.my-name{
-    margin: 8% 0% 0% 9%;
-    font-family: 'Open sans';
-    font-size: 4.0rem;
-    font-weight: 700;
-    color: white;
+.my-name {
+  margin: 8% 0% 0% 9%;
+  font-family: "Open sans";
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
 }
-.line{
-    width: 48%;
-    height: 1%;
-    background-color: #fecb00;
-    margin: 3% 0% 0% 8%;
+.line {
+  width: 48%;
+  height: 1%;
+  background-color: #fecb00;
+  margin: 3% 0% 0% 8%;
 }
-.profession{
-    margin: 8% 0% 0% 9%;
-    font-family: 'Open Sans';
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: white;
+.profession {
+  margin: 8% 0% 0% 9%;
+  font-family: "Open Sans";
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
 }
 
 /* Subsection about */
-.about .left-section{
-    overflow: hidden;
-}
-
-.title-about{
-    margin: 5% 0% 4% 7%;
-    font-size: 2.2rem;
-    font-family: 'Open Sans';
-    font-weight: 700;
-}
-.data-about{
-    margin: 5% 5% 0% 7%;
-    font-size: 1.5rem;
-    font-family: 'Open Sans';
-    font-weight: 400;
-    line-height: 1.7rem;
-}
-.education{
-    margin: 0% 0% 0% 0%;
-    overflow: hidden;
-}
-.education h2{
-    margin-left: 7%;
-    font-size: 2.2rem;
-    font-family: 'Open Sans';
-    font-weight: 700;
-}
-.education ul>li{
-    font-size: 1.5rem;
-    font-family: 'Open Sans';
-    font-weight: 400;
-    line-height: 1.5rem;
-    margin: 3% 5% 0% 0%;
-}
-.line-about{
-    display: block;
-    clear: right;
-    margin-left: 7%;
-    width: 99%;
-    height: 3%;
-    padding: 2%;
-    background-color: #DFB225;
-}
-.about .right-section{
+.about .left-section {
   overflow: hidden;
 }
-.line-about-right{
+
+.title-about {
+  margin: 5% 0% 4% 7%;
+  font-size: 2.2rem;
+  font-family: "Open Sans";
+  font-weight: 700;
+}
+.data-about {
+  margin: 5% 5% 0% 7%;
+  font-size: 1.5rem;
+  font-family: "Open Sans";
+  font-weight: 400;
+  line-height: 1.7rem;
+}
+.education {
+  margin: 0% 0% 0% 0%;
+  overflow: hidden;
+}
+.education h2 {
+  margin-left: 7%;
+  font-size: 2.2rem;
+  font-family: "Open Sans";
+  font-weight: 700;
+}
+.education ul > li {
+  font-size: 1.5rem;
+  font-family: "Open Sans";
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin: 3% 5% 0% 0%;
+}
+.line-about {
+  display: block;
+  clear: right;
+  margin-left: 7%;
+  width: 99%;
+  height: 3%;
+  padding: 2%;
+  background-color: #dfb225;
+}
+.about .right-section {
+  overflow: hidden;
+}
+.line-about-right {
   display: block;
   margin-top: 1%;
   clear: right;
   width: 100%;
   padding: 1.5%;
-  background-color: #E1E1E1;
+  background-color: #e1e1e1;
 }
-.skills{
+.skills {
   width: 90%;
   margin-left: 8%;
 }
-.my-skills{
+.my-skills {
   font-family: "Open Sans";
   font-size: 2rem;
   font-weight: 700;
 }
 
-.my-skills ul>li{
-  list-style:square ;
+.my-skills ul > li {
+  list-style: square;
   font-family: inherit;
   font-size: 1.2rem;
   font-weight: 400;
 }
-.code{
+.code {
   margin-left: 8%;
   font-family: "Open Sans";
 }
-.code-title{
+.code-title {
   font-size: 2rem;
   font-weight: 500;
   line-height: 4rem;
 }
-.code-title cite{
+.code-title cite {
   font-size: 1.2rem;
   font-weight: 300;
 }
-.code-data{
+.code-data {
   font-size: 1rem;
   font-weight: 100;
   font-style: oblique;
 }
-.project-link{
+.project-link {
   font-size: 1.5rem;
   font-style: italic;
   font-weight: 200;
   line-height: 3rem;
 }
-.language{
+.language {
   margin-left: 8%;
   font-family: "Open Sans";
 }
-.language-title{
+.language-title {
   font-size: 2rem;
   font-weight: 700;
 }
-.diagrams{
+.diagrams {
   margin-top: 5%;
   width: 100%;
   height: 30%;
   font-size: 0.1rem;
 }
-.block-diagram{
+.block-diagram {
   display: inline-block;
   margin-left: 5%;
   margin-right: 25%;
   text-align: center;
 }
-.diagram{
-  display:block;
+.diagram {
+  display: block;
   position: absolute;
-  box-sizing:border-box;
+  box-sizing: border-box;
   width: 150pt;
   height: 150pt;
   margin: 1%;
   text-align: center;
   border-radius: 50%;
 }
-.inner{
+.inner {
   display: block;
   box-sizing: border-box;
   position: absolute;
@@ -419,30 +419,30 @@ footer {
   background-color: white;
   text-align: center;
 }
-.percent-english{
-  background: conic-gradient(from 90deg at 33%, white 67%, #22222D 90%);
+.percent-english {
+  background: conic-gradient(from 90deg at 33%, white 67%, #22222d 90%);
 }
-.percent-native{
-  background: #22222D;
+.percent-native {
+  background: #22222d;
 }
-.language-level{
+.language-level {
   margin-top: 25%;
-  font-weight: "Open Sans";
+  font-family: "Open Sans";
   font-size: 20pt;
 }
 
 /* Footer */
-.img-git-profile{
+.img-git-profile {
   width: 50%;
   margin: 30% 35%;
 }
-.year{
+.year {
   font-family: "Open Sans";
   font-size: 2.5rem;
   font-weight: 700;
   font-style: oblique;
 }
-.img-rsschool{
+.img-rsschool {
   width: 100%;
   margin: 50% auto;
 }
