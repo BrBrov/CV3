@@ -152,12 +152,12 @@ footer {
 }
 .nav-link {
   display: inline-block;
-  font-family: "Open Sans";
+  font-family: "Open Sans Regular", sans-serif;
   font-size: 16pt;
   font-weight: 500;
   border-left: 5px groove black;
   padding-left: 1%;
-  margin: 0% 2% 0% 2%;
+  margin: 0 2% 0 2%;
 }
 
 /* Main sections */
@@ -219,14 +219,14 @@ footer {
   display: block;
   float: left;
   width: 5%;
-  margin: 9% 0% 0% 16%;
+  margin: 9% 0 0 16%;
 }
 .area {
   float: left;
-  margin: 8% 0% 0% 6%;
-  font-family: "Open Sans";
+  margin: 8% 0 0 6%;
+  font-family: "Open Sans SemiBold", sans-serif;
   font-size: 2rem;
-  font-style: normal;
+  /*font-style: normal;*/
   font-weight: 500;
 }
 .contacts-data {
@@ -240,8 +240,8 @@ footer {
 .contacts-link {
   float: left;
   text-align: left;
-  margin: 8% 6% 0% 0%;
-  font-family: "Open Sans";
+  margin: 8% 6% 0 0;
+  font-family: "Open Sans Medium", sans-serif;
   font-size: 1.1rem;
 }
 
@@ -259,23 +259,21 @@ footer {
   height: 100%;
 }
 .my-name {
-  margin: 8% 0% 0% 9%;
-  font-family: "Open sans";
+  margin: 8% 0 0 9%;
+  font-family: "Open Sans Bold", sans-serif;
   font-size: 4rem;
-  font-weight: 700;
   color: white;
 }
 .line {
   width: 48%;
   height: 1%;
   background-color: #fecb00;
-  margin: 3% 0% 0% 8%;
+  margin: 3% 0 0 8%;
 }
 .profession {
-  margin: 8% 0% 0% 9%;
-  font-family: "Open Sans";
+  margin: 8% 0 0 9%;
+  font-family: "Open Sans Bold", sans-serif;
   font-size: 1.5rem;
-  font-weight: 700;
   color: white;
 }
 
@@ -285,34 +283,29 @@ footer {
 }
 
 .title-about {
-  margin: 5% 0% 4% 7%;
+  margin: 5% 0 4% 7%;
   font-size: 2.2rem;
-  font-family: "Open Sans";
-  font-weight: 700;
+  font-family: "Open Sans Bold", sans-serif;
 }
 .data-about {
-  margin: 5% 5% 0% 7%;
+  margin: 5% 5% 0 7%;
   font-size: 1.5rem;
-  font-family: "Open Sans";
-  font-weight: 400;
+  font-family: "Open Sans Light", sans-serif;
   line-height: 1.7rem;
 }
 .education {
-  margin: 0% 0% 0% 0%;
   overflow: hidden;
 }
 .education h2 {
   margin-left: 7%;
   font-size: 2.2rem;
-  font-family: "Open Sans";
-  font-weight: 700;
+  font-family: "Open Sans Bold", sans-serif;
 }
 .education ul > li {
+  margin: 3% 5% 0 0;
   font-size: 1.5rem;
-  font-family: "Open Sans";
-  font-weight: 400;
+  font-family: "Open Sans Regular", sans-serif;
   line-height: 1.5rem;
-  margin: 3% 5% 0% 0%;
 }
 .line-about {
   display: block;
@@ -339,9 +332,8 @@ footer {
   margin-left: 8%;
 }
 .my-skills {
-  font-family: "Open Sans";
+  font-family: "Open Sans Bold", sans-serif;
   font-size: 2rem;
-  font-weight: 700;
 }
 
 .my-skills ul > li {
@@ -352,14 +344,15 @@ footer {
 }
 .code {
   margin-left: 8%;
-  font-family: "Open Sans";
+  font-family: "Open Sans SemiBold", sans-serif;
 }
 .code-title {
   font-size: 2rem;
-  font-weight: 500;
+  font-family: "Open Sans Regular", sans-serif;
   line-height: 4rem;
 }
 .code-title cite {
+  font-family: "Open Sans LightItalic", sans-serif;
   font-size: 1.2rem;
   font-weight: 300;
 }
@@ -376,11 +369,10 @@ footer {
 }
 .language {
   margin-left: 8%;
-  font-family: "Open Sans";
+  font-family: "Open Sans Bold", serif;
 }
 .language-title {
   font-size: 2rem;
-  font-weight: 700;
 }
 .diagrams {
   margin-top: 5%;
@@ -427,7 +419,7 @@ footer {
 }
 .language-level {
   margin-top: 25%;
-  font-family: "Open Sans";
+  font-family: "Open Sans SemiBold", sans-serif;
   font-size: 20pt;
 }
 
@@ -437,7 +429,7 @@ footer {
   margin: 30% 35%;
 }
 .year {
-  font-family: "Open Sans";
+  font-family: "Open Sans SemiBold", sans-serif;
   font-size: 2.5rem;
   font-weight: 700;
   font-style: oblique;
