@@ -111,8 +111,13 @@ a {
 }
 
 a:hover {
-  color: rgba(49, 114, 235, 0.918);
+  color: rgba(124, 15, 226, 0.918);
   text-decoration: underline;
+  text-underline-position: 1%;
+  text-decoration-style:solid;
+  text-decoration-color: #393d03;
+  text-shadow: 4px -3px 6px rgb(66, 82, 219);
+
 }
 
 /* Page */
