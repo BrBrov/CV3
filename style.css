@@ -1,5 +1,4 @@
 /* Fonts */
-
 @font-face {
   font-family: "Open Sans Light";
   src: url("/assets/fonts/OpenSans-Light.woff2") format("woff2"),
@@ -95,6 +94,7 @@
 .by {
   border: 1px groove rgb(249, 253, 1);
 }
+
 /* Background color for section*/
 .black {
   background-color: #222130;
@@ -104,12 +104,10 @@
 }
 
 /* Links styles */
-
 a {
   text-decoration: none;
   color: rgb(10, 22, 129);
 }
-
 a:hover {
   color: rgb(127, 15, 233);
   text-decoration: underline;
@@ -123,7 +121,6 @@ a:hover {
 html {
   scroll-behavior: smooth;
 }
-
 body {
   margin: 0;
 }
@@ -180,6 +177,7 @@ footer {
   height: 62%;
   font-size: 0;
 }
+
 /* Left empty subsection */
 .empty {
   display: inline-block;
@@ -188,7 +186,6 @@ footer {
 }
 
 /* Subsection with info*/
-
 .left-section {
   display: inline-block;
   width: 38%;
@@ -256,7 +253,6 @@ footer {
 .my-info .left-section {
   background-color: #e0b300;
 }
-
 .my-photo {
   display: block;
   width: 100%;
@@ -285,7 +281,6 @@ footer {
 .about .left-section {
   overflow: hidden;
 }
-
 .title-about {
   margin: 5% 0 4% 7%;
   font-size: 2.2rem;
@@ -309,7 +304,7 @@ footer {
   margin: 3% 5% 0 0;
   font-size: 1.5rem;
   font-family: "Open Sans Regular", sans-serif;
-  line-height: 1.5rem;
+  line-height: 1.7rem;
 }
 .line-about {
   display: block;
@@ -339,7 +334,6 @@ footer {
   font-family: "Open Sans Bold", sans-serif;
   font-size: 2rem;
 }
-
 .my-skills ul > li {
   list-style: square;
   font-family: inherit;
