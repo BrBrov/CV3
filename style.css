@@ -616,7 +616,18 @@ footer {
     margin: 10% auto;
   }
 }
+
 /*adaptive for tablet*/
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  /* стили */
+  /* Left empty subsection */
+  .empty {
+    display: none;
+  }
+
+  /* Subsection with info*/
+  .left-section {
+    display: inline-block;
+    width: 44%;
+    height: 100%;
+  }
 }
