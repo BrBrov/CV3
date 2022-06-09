@@ -492,6 +492,9 @@ footer {
   .contact-details {
     height: auto;
   }
+  .contacts-link{
+    font-size: 1.5rem;
+  }
   .my-info {
     height: auto;
   }
